@@ -23,17 +23,37 @@ ul {
   padding: 0;
   align-items: center;
 }
-.scheduleOnline{
+.topInfo li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#consultLI{
+  display:flex;
+  flex-flow: row;
+  padding-bottom: 5px;
+}
+#personalConsultations {
+  font-size: 13px;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+#scheduleOnline{
   background: #6D7993;
   text-align: center;
-  width: 80%;
+  width: 90%;
   color: white;
 }
 .menu {
+  width:100%;
   padding-left: 0;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 0px 0px 0px;
   text-align: center;
   background-color: #96858F;
+  font-size: 18px;
+}
+.menu li {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 #logo {
   display: block;
@@ -41,6 +61,11 @@ ul {
 }
 .menu :hover {
   color: white;
+  font-weight: bold;
+  transition-property: color;
+  transition-duration: 400ms;
+  transition-timing-function: ease-out;
+  transition-delay: initial;
 }
 .title {
   padding: 5px;
@@ -49,7 +74,8 @@ p {
   padding: 2px;
 }
 .large{
-  font-size: 20px;
+  font-size: 25px;
+  color: #6D7993;
 }
 .bottomInfo {
   text-align: center;
@@ -62,9 +88,23 @@ footer {
   background-color: #9099A2;
   color: white;
 }
+.footer li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
 .socialMedia {
   text-align: center;
 }
 .socialMedia :hover{
   color: #6D7993;
+}
+
+/*About Us Page*/
+#AboutUsBody{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.imageOfEmployee{
+  float: left;
+  padding-right: 3px;
 }
