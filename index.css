@@ -55,6 +55,10 @@ ul {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.menu a {
+  text-decoration: none;
+  color: black;
+}
 #logo {
   display: block;
   margin: 0 auto;
@@ -107,4 +111,38 @@ footer {
 .imageOfEmployee{
   float: left;
   padding-right: 3px;
+}
+#aboutUsDescription {
+  margin: 10px;
+}
+
+/*Contact Page*/
+
+.contactFormDiv {
+  background: #96858F;
+  padding: 10px 0px 10px 10px;
+}
+input :focus {
+  border: 3px solid white;
+}
+input, textarea {
+  width: 90%;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  padding: 10px 0px 10px 5px;
+  border: 0px;
+}
+h3 {
+  color: white;
+}
+textarea {
+  height: 200px;
+  resize: none;
+  border: 0px;
+}
+.submitButton {
+  padding: 8px 12px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: white;
 }
