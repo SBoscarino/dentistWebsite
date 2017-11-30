@@ -1,3 +1,70 @@
+/*mobile first*/
+
+/*lavender #6D7993;
+brownish #96858F
+gray #9099A2;*/
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
 ul {
   list-style: none;
+  padding-left: 0;
+}
+.topInfo{
+  margin-top: 0px;
+  background-color: #E7DFDD;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  align-items: center;
+}
+.scheduleOnline{
+  background: #6D7993;
+  text-align: center;
+  width: 80%;
+  color: white;
+}
+.menu {
+  padding-left: 0;
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+  background-color: #96858F;
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+.menu :hover {
+  color: white;
+}
+.title {
+  padding: 5px;
+}
+p {
+  padding: 2px;
+}
+.large{
+  font-size: 20px;
+}
+.bottomInfo {
+  text-align: center;
+}
+iframe{
+  padding-top: 5px;
+}
+footer {
+  border-bottom: 1px;
+  background-color: #9099A2;
+  color: white;
+}
+.socialMedia {
+  text-align: center;
+}
+.socialMedia :hover{
+  color: #6D7993;
 }
