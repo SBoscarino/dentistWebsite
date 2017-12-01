@@ -6,6 +6,9 @@ gray #9099A2;*/
 html {
   box-sizing: border-box;
 }
+p {
+  margin: 5px;
+}
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -29,6 +32,7 @@ ul {
   width: 100%;
   padding: 0;
   align-items: center;
+  font-size: 40px;
 }
 .topInfo li {
   padding-top: 3px;
@@ -40,9 +44,9 @@ ul {
   padding-bottom: 5px;
 }
 #personalConsultations {
-  font-size: 13px;
+  font-size: 30px;
   padding-right: 5px;
-  padding-top: 2px;
+  padding-top: 7px;
 }
 #scheduleOnline{
   background: #6D7993;
@@ -92,7 +96,7 @@ p {
   text-align: center;
 }
 iframe{
-  padding-top: 5px;
+  padding-top: 10px;
 }
 footer {
   border-bottom: 1px;
@@ -104,7 +108,12 @@ footer {
   padding-bottom: 3px;
 }
 .socialMedia {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 40px 0px 40px;
+  padding-bottom: 10px;
+}
+.socialMedia i {
 }
 .socialMedia :hover{
   color: #6D7993;
@@ -117,9 +126,9 @@ footer {
 }
 .imageOfEmployee{
   float: left;
-  padding-right: 3px;
+  padding-right: 10px;
 }
-#aboutUsDescription {
+.aboutUsDescription {
   margin: 10px;
 }
 
@@ -135,9 +144,10 @@ input :focus {
 input, textarea {
   width: 90%;
   border-radius: 2px;
-  margin-bottom: 5px;
-  padding: 10px 0px 10px 5px;
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 10px;
   border: 0px;
+  font-size: 30px;
 }
 h3 {
   color: white;
@@ -148,7 +158,9 @@ textarea {
   border: 0px;
 }
 .submitButton {
-  padding: 8px 12px;
+  font-size: 30px;
+  margin-top: 5px;
+  padding: 10px 12px;
   border: 0px;
   border-radius: 4px;
   background-color: white;
@@ -165,7 +177,8 @@ textarea {
 
 /*Services*/
 .servicesParent{
-  padding: 5px;
+  padding: 20px;
+  font-size: 30px;
 }
 .leftServices {
   float: left;
@@ -178,7 +191,6 @@ textarea {
   display: block;
   margin: 0 auto;
   clear:both;
-
 }
 .clearedParagraph {
   clear:both;
@@ -204,4 +216,73 @@ textarea {
 .testiAuthor{
 text-align: right;
 padding-bottom: 10px;
+}
+
+
+
+
+/*phone in landscape // small, general fixes*/
+@media screen and (min-width: 680px) {
+  h1 {
+    padding-left: 20px;
+  }
+  /*Services*/
+  .servicesParent{
+    font-size: 20px;
+    padding: 50px;
+  }
+  /*About Us*/
+  #aboutUsMain{
+    padding-bottom: 120px;
+  }
+  #AboutUsBody{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #assistantOne, #assistantTwo{
+    clear:left;
+  }
+  .imageOfEmployee{
+    margin: 10px;
+    float: left;
+    padding-right: 10px;
+  }
+  .aboutUsDescription {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    font-size: 30px;
+  }
+  .menu {
+    font-size: 30px;
+  }
+  .large {
+    font-size: 40px;
+  }
+  .title {
+    padding-left: 10px;
+  }
+  /*Services*/
+  .servicesParent{
+    font-size: 30px;
+  }
+  .servicesParent b {
+    font-size: 33px;
+  }
+  /*Testimonials*/
+  .testiQuote{
+    line-height: 35px;
+  }
+  /*FAQ's*/
+  .FAQtitle {
+    font-size: 40px;
+  }
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 1380px) {
 }
