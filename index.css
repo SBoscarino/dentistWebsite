@@ -38,6 +38,9 @@ ul {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+#extraImage{
+  display: none;
+}
 #consultLI{
   display:flex;
   flex-flow: row;
@@ -204,7 +207,6 @@ textarea {
   display: block;
   margin: 0 auto;
   padding-bottom: 15px;
-
 }
 .testiQuote {
   color:black;
@@ -285,4 +287,116 @@ padding-bottom: 10px;
 
 /*Desktop*/
 @media screen and (min-width: 1380px) {
+  p {
+    margin: 20px;
+  }
+  h1 {
+    margin: 20px;
+  }
+  .divider {
+    border-bottom: solid #96858F 7px;
+  }
+  .topInfo{
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .topInfo li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  #consultLI{
+    flex-flow: row;
+    padding-bottom: 5px;
+  }
+  #personalConsultations {
+    font-size: 40px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-left: 50px;
+  }
+  #scheduleOnline{
+    flex-basis: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu {
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    background-color: #96858F;
+    font-size: 35px;
+  }
+  .menu li {
+    padding:10px 10px 10px 10px;
+  }
+  #extraImage{
+    display: block;
+  }
+  #logoAndExtraImage{
+    display:flex;
+  }
+  .menu :hover {
+    color: white;
+    font-weight: bold;
+    transition-property: color;
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+  }
+  .large{
+    font-size: 50px;
+  }
+
+  .bottomInfo {
+    text-align: left;
+  }
+  iframe{
+    padding-top: 20px;
+  }
+  footer {
+    padding-left: 20px;
+    border-bottom: 0px;
+  }
+  .footer li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .socialMedia {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+  /*Contact Page*/
+  input, textarea {
+    margin-bottom: 12px;
+    padding: 12px 0px 12px 12px;
+  }
+
+  /*FAQ*/
+  .FAQtitle {
+    font-size: 50px;
+  }
+
+  /*Services*/
+  .servicesParent{
+    padding: 50px;
+  }
+  .clearedDivider{
+    border-bottom: solid #96858F 7px;
+  }
+
+  /*Testimonials*/
+  .testiDIV{
+    padding: 10px;
+    width:90%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+  .testiQuote {
+    line-height: 35px;
+    font-style: italic;
+  }
 }
