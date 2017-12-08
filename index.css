@@ -287,7 +287,9 @@ padding-bottom: 10px;
 
 /*Desktop*/
 @media screen and (min-width: 1380px) {
-
+  #logo {
+    height: 350px;
+  }
   p {
     margin: 20px;
   }
